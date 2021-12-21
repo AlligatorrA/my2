@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nova+Square&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+:root {
+  --primary-color: rgb(47, 13, 243);
+  --secondry-color: rgb(105, 245, 12);
+  --body-color: white;
+}
+.container {
+  /* height: 100vh; */
+  width: 100vw;
+  background: var(--primary-color);
+  color: var(--body-color);
+}
+.main {
+  /* height: 120vh; */
+  max-width: 80vw;
+  margin: auto;
+}
+.navigation {
+  float: right;
+  max-width: 70px;
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: flex;
+}
+.sideNav {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.sideNavLi {
+  display: flex;
+  justify-content: end;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 10px;
+}
+.sideNavLi a {
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--secondry-color);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: center;
+}
+.sideNavLi img {
+  padding: 10px 0px 0px 15px;
+  margin: 10px 5px 5px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.Intro {
+  text-align: center;
+  margin: auto;
+}
+.Intro h2 {
+  margin-top: 30px;
+  /* font-size: 3vw; */
+  font-weight: 900;
+  font-family: "Fredericka the Great", cursive;
+
+}
+.Intro h1 {
+  margin-top: 30px;
+  font-size: 16vw;
+  font-weight: 900;
+  font-family: "Fredericka the Great", cursive;
+}
+.Intro p {
+  font-weight: 900;
+  font-family: "Fredericka the Great", cursive;
+  margin-bottom: 30px;
+}
+.technologies{
+  padding: 30px 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+ .description{
+  max-width: 450px;
+  font-weight: 700;
+}
+.heading{
+  font-family: "Fredericka the Great", cursive;
+  margin: 0px ;
+}
+.headingProject{
+  font-family: "Fredericka the Great", cursive;
+  margin: 0px ;
+}
+.technologies p {
+  margin: 0px 0px 40px 0;
+}
+.projects{
+  margin: 40px 10px;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.Blogs{
+  margin: 40px 10px;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.Blogs a, .projects a{
+  margin: 10px;
+  background-color: var(--secondry-color);
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: center;
+}
+.footerNav{
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+.footerNavUl{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerNavLi{
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+  padding: 10px;
+
+}
+.footerNavLi a{
+  /* font-weight: 900; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
